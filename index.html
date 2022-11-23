@@ -1,1 +1,108 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Form || HTML HM</title>
+  </head>
+  <body>
+    <main>
+      <fieldset>
+        <h1>Basic HTML Form</h1>
+        <!-- name -->
+        <fieldset>
+          <legend>Name</legend>
+          <br />
+          <div>
+            <label for="fName">First Name:</label>
+            <br />
+            <input type="text" name="fName" id="fName" />
+          </div>
+          <br />
+          <div>
+            <label for="lName">Last Name:</label>
+            <br />
+            <input type="text" name="lName" id="lName" />
+          </div>
+          <br />
+        </fieldset>
+        <!-- body of form -->
+        <fieldset>
+          <legend>Other Questions</legend>
+          <div>
+            <br />
+            <b>Choose a drink:</b>
+            <br />
+            <label>
+              <input type="radio" name="drink" />
+              coffee
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="drink" />
+              tea
+            </label>
+            <br />
+            <label>
+              <input type="radio" name="drink" />
+              hot chocolate
+            </label>
+          </div>
+          <br />
+          <div>
+            <b>What ice cream do you like?</b><br />
+            <label>
+              <input type="checkbox" name="chocolate" />
+              Chocolate
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" name="chocolatePudding" />
+              Chocolate Pudding
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" name="chocolatePB" />
+              Chocolate Peanut Butter
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" name="vanilla" />
+              Vanilla
+            </label>
+            <br />
+            <label>
+              <input type="checkbox" name="strawberry" />
+              Strawberry
+            </label>
+          </div>
+          <br />
+          <div>
+            <label>
+              <b>Select a school</b>
+              <br />
+              <select name="school">
+                <option value="UOP">University of palestine</option>
+                <option value="IU">IU</option>
+                <option value="AU">AU</option>
+              </select>
+            </label>
+          </div>
+          <br />
+          <div>
+            <label>
+              <b>Please provide comments:</b> <br />
+              <textarea name="comments" cols="30" rows="10"></textarea>
+            </label>
+            <br />
+          </div>
+        </fieldset>
+        <br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </main>
+  </body>
+</html>
